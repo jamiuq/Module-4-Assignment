@@ -29,5 +29,6 @@ public class Main {
     System.out.println(shape3.getNumSides());
     System.out.println(shape2.getArea());
     System.out.println(shape3.getArea());
+    shape3.printCircleInfo();
   }
 }

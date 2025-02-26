@@ -12,4 +12,9 @@ public class Circle extends Shape
 
   public int getRadius() {return radius;}
   public void setRadius(int radius) {this.radius = radius;}
+
+  public void printCircleInfo()
+  {
+    System.out.println("\nCircle Info:\nRadius: " + radius + "\nArea: " + getArea() + "\nNumber of Sides: " + super.getNumSides());
+  }
 }
